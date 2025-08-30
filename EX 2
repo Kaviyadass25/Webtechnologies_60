@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skiniq-2025 Product lineup</title>
+  </title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 20px;
+      color: #722f37;
+    }
+    header {
+      background-color: #b33951;
+      color: #fff0f6;
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 20px 0;
+    }
+    .product {
+      width: 45%;
+      margin: 10px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border: 3px solid #b33951;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(179, 57, 81, 0.4);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background-color: #fff0f6;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(179, 57, 81, 0.2);
+    }
+    th, td {
+      border: 1px solid #f2c6d0;
+      padding: 12px;
+      text-align: left;
+      color: #722f37;
+    }
+    th {
+      background-color: #d66a82;
+      color: white;
+    }
+    .nav {
+      text-align: center;
+      margin: 20px;
+    }
+    .nav a {
+      margin: 0 15px;
+      color: #b33951;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav a:hover {
+      text-decoration: underline;
+    }
+    .upcoming {
+      background-color: #ffd9e6;
+    }
+    .year-highlight {
+      color: #b33951;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SKINIQ <span class="year-highlight">2025 Product Lineup</span></h1>
+    <p>Discover our latest skincare & cosmetics collection</p>
+  </header>
+
+  <div class="nav">
+    <a href="#skincare">Skincare</a>
+    <a href="#makeup">Makeup</a>
+  </div>
+
+  <div class="gallery" id="skincare">
+    <div class="product">
+        <img src="C:\Users\kaviy\Downloads\serum.jpg"
+ alt="Cleanser">
+      </a>
+      <h3>Hydrating Face Serum</h3>
+      <p>Refreshes and nourishes your skin</p>
+    </div>
+    <div class="product">
+        <img src="C:\Users\kaviy\Pictures\Screenshots\Screenshot 2025-08-20 220228.png" alt="Hydrating Serum">
+      </a>
+      <h3>Gentle Facial Cleanser</h3>
+      <p>Leaves skin soft and clean</p>
+    </div>
+  </div>
+  <table>
+    <tr>
+      <th>Product</th>
+      <th>Category</th>
+      <th>Skin Type</th>
+      <th>Key Ingredient</th>
+      <th>Launch Date</th>
+    </tr>
+    <tr>
+      <td>Hydrating Face Serum</td>
+      <td>Skincare</td>
+      <td>All Skin Types</td>
+      <td>Hyaluronic Acid</td>
+      <td>March 2025</td>
+    </tr>
+    <tr>
+      <td>Gentle Facial Cleanser</td>
+      <td>Skincare</td>
+      <td>Normal to Dry</td>
+      <td>Aloe Vera Extract</td>
+      <td>April 2025</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>Upcoming 2025 Collections</th>
+      <th>Dates</th>
+      <th>Featured Range</th>
+      <th>Highlights</th>
+    </tr>
+    <tr class="upcoming">
+      <td>Skincare Essentials</td>
+      <td>March - May 2025</td>
+      <td>Radiant Glow</td>
+      <td>Hydration & Renewal</td>
+    </tr>
+    <tr class="upcoming">
+      <td>Flawless Makeup</td>
+      <td>June - August 2025</td>
+      <td>Glitz & Glam</td>
+      <td>Long-lasting & Vibrant</td>
+    </tr>
+    <tr class="upcoming">
+      <td>Natural Beauty</td>
+      <td>September - November 2025</td>
+      <td>Organic Line</td>
+      <td>Eco-friendly & Pure</td>
+    </tr>
+  </table>
+</body>
+</html>
+
